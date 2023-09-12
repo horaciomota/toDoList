@@ -23,7 +23,7 @@ struct ListView: View {
             }
             
         }
-        .navigationTitle("Todo List 📝")
+        .navigationTitle("GoodNotes 📝")
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 NavigationLink(destination: AddView()) {
