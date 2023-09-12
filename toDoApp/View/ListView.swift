@@ -26,11 +26,10 @@ struct ListView: View {
         .navigationTitle("Todo List 📝")
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
-                Button(action: {
-                    // Implement your "Add" button action here
-                }) {
+                NavigationLink(destination: AddView()) {
                     Label("Add", systemImage: "plus")
                 }
+
             }
             
             ToolbarItem(placement: .navigationBarTrailing) {
